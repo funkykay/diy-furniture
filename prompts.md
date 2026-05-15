@@ -19,6 +19,8 @@ Einfach die `.drawio`-Datei oder einen Export zusammen mit einem Prompt an ein K
 ```text
 Analysiere die technische Zeichnung <Name> und erstelle eine Materialliste.
 
+Wichtig: Verstehe erst die Zeichnung! Es gibt eventuell mehrere Ansichten... z.B. Seitenansicht und Frontansicht. Ich brauche die Materialien dann natürlich nur einmal, obwohl sie in beiden Sichten vorkommen.
+
 Berücksichtige:
 - alle Holzteile
 - Maße in mm
@@ -32,6 +34,8 @@ Berücksichtige:
 
 ```text
 Analysiere die technische Zeichnung <Name> und ergänze fehlende Maße sinnvoll im .drawio-Format.
+
+Wichtig: Verstehe erst die Zeichnung!
 
 Erstelle:
 - vollständige Außenmaße
