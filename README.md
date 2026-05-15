@@ -19,3 +19,46 @@ Dabei gilt:
 - Die Zeichnung dient gleichzeitig als Skizze und Maßplan
 
 So bleibt alles einfach, nachvollziehbar und ohne großes CAD-Gefrickel.
+
+## KI-Workflow
+
+Das Repository funktioniert überraschend gut zusammen mit KI-Tools.  
+Da die Zeichnungen gleichzeitig Skizze und Maßplan sind, lassen sich daraus oft direkt sinnvolle Informationen ableiten.
+
+Zum Beispiel:
+
+- Materiallisten erzeugen
+- Zuschnitt planen
+- Maße ergänzen
+- Konstruktionen prüfen
+- Stückzahlen zusammenfassen
+- Dokumentation erzeugen
+
+Einfach die `.drawio`-Datei oder einen Export zusammen mit einem Prompt an ein KI-Tool geben.
+
+### Beispiel: Materialliste erzeugen
+
+```text
+Analysiere die technische Zeichnung und erstelle eine Materialliste.
+
+Berücksichtige:
+- alle Holzteile
+- Maße in mm
+- Stückzahlen
+- identische Teile zusammenfassen
+- geschätzte Materialstärke erkennen
+- Ergebnis als Tabelle ausgeben
+```
+
+### Beispiel: Maße ergänzen
+
+```text
+Analysiere die technische Skizze und ergänze fehlende Maße sinnvoll.
+
+Erstelle:
+- vollständige Außenmaße
+- Maße aller Zwischenräume
+- Materialstärken
+- Positionsmaße wichtiger Bauteile
+- eine strukturierte Liste aller erkannten Maße in mm
+```
