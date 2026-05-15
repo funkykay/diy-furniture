@@ -1,11 +1,22 @@
 {
-  "selection_mode": "include_all",
-  "include": [],
-  "exclude": [
-    "prompts.md",
-    "summarize.json"
+  "selection_mode": "exclude_all",
+  "include": [
+    "README.md"
   ],
   "prune": [
     ".git/"
-  ]
+  ],
+  "profiles": {
+    "meta": {
+      "include": [
+        "prompts.md",
+        "summarize.json"
+      ]
+    },
+    "holmsund": {
+      "include": [
+        "ikea-holmsund-sideboard/"
+      ]
+    }
+  }
 }
