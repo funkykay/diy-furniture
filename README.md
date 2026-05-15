@@ -7,3 +7,15 @@ Hier landen Zeichnungen, Maße, Exporte und Notizen für DIY-Möbelprojekte. Nic
 ## Ordnerlogik
 
 Ein Projekt, ein Ordner. Meistens.
+
+## Workflow
+
+Gezeichnet wird in draw.io. Schnell, unkompliziert und völlig ausreichend für Möbel, die am Ende hauptsächlich gerade sein sollen.
+
+Dabei gilt:
+
+- 1 pt in draw.io entspricht 1 mm in der Realität
+- Maße können direkt aus der Zeichnung übernommen werden
+- Die Zeichnung dient gleichzeitig als Skizze und Maßplan
+
+So bleibt alles einfach, nachvollziehbar und ohne großes CAD-Gefrickel.
