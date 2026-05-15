@@ -1,9 +1,11 @@
 {
   "selection_mode": "include_all",
   "include": [],
-  "exclude": [],
-  "prune": [
-    ".git/",
+  "exclude": [
+    "prompts.md",
     "summarize.json"
+  ],
+  "prune": [
+    ".git/"
   ]
 }
